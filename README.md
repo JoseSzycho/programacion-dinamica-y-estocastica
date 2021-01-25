@@ -423,6 +423,12 @@ Para ver un ejemplo práctico de las leyes anteriores vamos a realizar un ejerci
 
     `(5/6)^10 = 0.1615`
 
+- Y la probabilidad que si salga **1** en **10 lanzamientos**:
+    Sería 1 - la probabilidad de que no salga debido a la ley del complemento P(A) + P(~A) = 1
+
+    `P(A) = 1  - P(~A)`
+    `1-(5/6)^10 = 0.8382`
+
 ## Simulación de Probabilidades
 
 En el siguiente ejercicio crearemos un ejemplo de lanzar un dado de 6 caras, esto con el objetivo de obtener la distribución de probabilidades y acercarnos al numero correcto, aplicando la **ley de los grandes números.**
