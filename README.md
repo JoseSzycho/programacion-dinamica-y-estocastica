@@ -421,7 +421,7 @@ Para ver un ejemplo práctico de las leyes anteriores vamos a realizar un ejerci
 
     Para cada lanzamiento tenemos la posibilidad de **5/6** de que no toque **1**, por lo que utilizamos la **ley multiplicativa.**
 
-    `(5/6)^10 = 0.8333`
+    `(5/6)^10 = 0.1615`
 
 ## Simulación de Probabilidades
 
