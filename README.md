@@ -417,11 +417,11 @@ Para ver un ejemplo práctico de las leyes anteriores vamos a realizar un ejerci
 
     `P(1 o 2) = 2/6`
 
-- La probabilidad de que nos salga el número **1** al menos **1 vez** en **10 lanzamientos**:
+- La probabilidad de que no salga el número **1** al menos **1 vez** en **10 lanzamientos**:
 
-    Para cada lanzamiento tenemos la posibilidad de **1/6** de que nos toque **1**, por lo que utilizamos la **ley multiplicativa.**
+    Para cada lanzamiento tenemos la posibilidad de **5/6** de que no toque **1**, por lo que utilizamos la **ley multiplicativa.**
 
-    `(1/6)^10 = 0.8333`
+    `(5/6)^10 = 0.8333`
 
 ## Simulación de Probabilidades
 
