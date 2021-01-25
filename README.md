@@ -395,9 +395,9 @@ Al hablar de **probabilidad** preguntamos qué fracción de todos los posibles e
     - P(A y B) = P(A) * P(B)
 
 - Ley aditiva:
-    - Mutuamente exclusivos: P(A o B) = P(A) + P(B)
+    - Mutuamente exclusivos (cuando la ocurrencia de uno impide que sucede el otro): P(A o B) = P(A) + P(B)
 
-    - No exclusivos: P(A o B) = P(A) + P(B) - P(A y B)
+    - No exclusivos (cuando uno o ambos eventos pueden suceder a la vez): P(A o B) = P(A) + P(B) - P(A y B)
     
 
 
