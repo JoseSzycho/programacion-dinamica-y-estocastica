@@ -707,6 +707,10 @@ def estimar_pi(precision, numero_de_intentos):
     numero_de_agujas = 1000
     sigma = precision
 
+    #La precision dependerá de el valor sigma: p=constante_confiabilidad*sigma y de la confiabilidad 
+    # que queramos obtener (1sigma = 68%, 1.96sigma=95%, 2sigma=95.45%…). Entonces para obtener una 
+    # precision de 0.01 necesitamos un sigma de 0.01/1.96=0.0051
+
     while sigma >= precision / 1.96:
         media, sigma = estimacion(numero_de_agujas, numero_de_intentos)
         numero_de_agujas *= 2
